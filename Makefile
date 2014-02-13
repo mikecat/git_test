@@ -6,7 +6,7 @@ RM=rm -f
 add.exe: add_main.o add_func.o
 	$(CC) $(LDFLAGS) -o add.exe add_main.o add_func.o
 
-add_main.o: add_main.c
+add_main.o: add_main.c add_func.h
 	$(CC) $(CFLAGS) -c -o add_main.o add_main.c
 
 add_func.o: add_func.c

@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-int add(int,int);
-int add_check(int,int,int);
+#include "add_func.h"
 
 int main(void) {
 	int a,b,sum;
